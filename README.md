@@ -10,8 +10,8 @@ E-ink의 bistable 상태를 흑백 2D 패턴으로 기록하고, 전원 OFF 후�
 |------|--------|------|-------------|----------|
 | dwkang | [@KDW1007](https://github.com/KDW1007) | 웹 통합 | `web/dwkang` | [`web/`](web/) |
 | 김소이 | TBD | QR 입출력 소프트웨어 | `qr/kimsoyi` | [`qr/`](qr/) |
-| 이현민 | [@jjd1627-sudo](https://github.com/jjd1627-sudo) (초대 수락 대기) | 하드웨어 | `hardware/hyunmin` | [`hardware/hyunmin/`](hardware/hyunmin/) |
-| 최서현 | TBD | 하드웨어 | `hardware/seohyun` | [`hardware/seohyun/`](hardware/seohyun/) |
+| 이현민 | [@jjd1627-sudo](https://github.com/jjd1627-sudo) (초대 수락 대기) | 하드웨어 | `hardware/hyunmin` | [`hardware/`](hardware/) |
+| 최서현 | TBD | 하드웨어 | `hardware/seohyun` | [`hardware/`](hardware/) |
 
 ## 협업 규칙
 
@@ -22,10 +22,21 @@ E-ink의 bistable 상태를 흑백 2D 패턴으로 기록하고, 전원 OFF 후�
 ## 디렉터리
 
 ```
-qr/                 # QR 인코딩·디코딩 / 카메라 입출력
-web/                # 웹 UI·API·파이프라인 통합
-hardware/
-  hyunmin/          # MCU·E-ink 구동 등
-  seohyun/          # MCU·전원·기구 등
-docs/               # 제안서·스펙·실험 기록
+qr/          # QR 인코딩·디코딩 / 카메라 입출력
+web/         # Django 웹 (기본 사이트)
+hardware/    # MCU·E-ink·전원·기구
+docs/        # 제안서·스펙·실험 기록
 ```
+
+## 웹 실행
+
+```bash
+cd web
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+http://127.0.0.1:8000/
