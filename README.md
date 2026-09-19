@@ -2,7 +2,7 @@
 
 E-ink의 bistable 상태를 흑백 2D 패턴으로 기록하고, 전원 OFF 후에도 카메라로 읽어 데이터를 복원하는 프로젝트.
 
-저장소: private — 초대된 collaborator만 접근 가능.
+저장소: public (open source).
 
 ## 팀 / 역할
 
