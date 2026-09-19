@@ -10,10 +10,8 @@ E-ink의 bistable 상태를 흑백 2D 패턴으로 기록하고, 전원 OFF 후�
 |------|--------|------|-------------|----------|
 | dwkang | [@KDW1007](https://github.com/KDW1007) | 웹 통합 | `web/dwkang` | [`web/`](web/) |
 | 김소이 | TBD | QR 입출력 소프트웨어 | `qr/kimsoyi` | [`qr/`](qr/) |
-| 이현민 | TBD | 하드웨어 | `hardware/hyunmin` | [`hardware/hyunmin/`](hardware/hyunmin/) |
+| 이현민 | [@jjd1627-sudo](https://github.com/jjd1627-sudo) (초대 수락 대기) | 하드웨어 | `hardware/hyunmin` | [`hardware/hyunmin/`](hardware/hyunmin/) |
 | 최서현 | TBD | 하드웨어 | `hardware/seohyun` | [`hardware/seohyun/`](hardware/seohyun/) |
-
-초대됨 (역할 미배정): [@jjd1627-sudo](https://github.com/jjd1627-sudo) — Write 권한, 초대 수락 대기 중.
 
 ## 협업 규칙
 
